@@ -1,0 +1,26 @@
+{
+  "name": "sandbox",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "open index.html",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "directory-tree": "^2.2.4",
+    "lodash": "^4.17.15",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.5",
+    "@testing-library/dom": "^7.31.0",
+    "@testing-library/jest-dom": "^5.8.0",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.3.0"
+  }
+}
