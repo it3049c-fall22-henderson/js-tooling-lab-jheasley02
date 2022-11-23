@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "cy:open" : "cypress open",
-    "cy:run" : "cypress run",
+    "lint" : "eslint --ext .js resources/scripts",
     "start": "open index.html",
     "test": "jest",
     "test:watch": "jest --watchAll"
