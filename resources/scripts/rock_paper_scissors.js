@@ -1,4 +1,4 @@
-class RockPaperScissors {
+export class RockPaperScissors {
   constructor(username) {
     this.username = username;
     this.score = {
@@ -57,10 +57,10 @@ class RockPaperScissors {
     const cpuSelection = this.generateCPUResponse(); 
     const results = this.determineWinner(userSelection, cpuSelection); 
     
-    if(results == `win`) { 
+    if(results === `win`) { 
       this.score.user++; 
     }
-    if(results == `lose`) { 
+    if(results === `lose`) { 
       this.score.cpu++; 
     }
 
